@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-public class Player : MonoBehaviour
+public class Player : Inventory
 {
     public string Name = "Hugo";
     public int health = 100;

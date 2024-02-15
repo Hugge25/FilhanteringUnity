@@ -1,6 +1,6 @@
 using System;
 
-[System.Serializable]
+[Serializable]
 public class PlayerData
 {
     public string Name;
@@ -12,6 +12,5 @@ public class PlayerData
         Name = player.Name;
         health = player.health;
         age = player.age;
-
     }
 }
